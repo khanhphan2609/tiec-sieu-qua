@@ -1,0 +1,48 @@
+/* Styles for laptops mini*/
+@media only screen and (min-width: 993px)  and (max-width: 1600px) {
+    /*  Menu */
+    .menu .title {
+        font-size: .7rem;
+    }
+    .menu .menu__item img {
+        width: 100%;
+    }
+
+    /* Get Gifts */
+    .get-gifts {
+        margin: 36.6vw 0 0 0;
+    }
+    .get-gifts .title {
+        font-size: 1rem;
+    }
+    .get-gifts__item img {
+        width: 7%;
+    }
+}
+
+/* Styles for mobile & tablet devices */
+@media only screen and (max-width: 992px) {
+.hide-on-pc-tablet {
+    display: none;
+}
+    #wrapper {
+        min-height: 376vh;
+        background: url('/assets/img/mob/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+  
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+

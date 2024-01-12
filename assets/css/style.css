@@ -1,0 +1,97 @@
+#wrapper {
+    min-height: 135vw;
+    background: url('/assets/img/pc/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Menu */
+.menu {
+    position: relative;
+    top: 2vw;
+    left: 23vw;
+    width: 11vw;
+    min-height: 20vw;
+    background: url(/assets/img/pc/menu/menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu .title {
+    position: absolute;
+    top: 5.8vw;
+    left: 2.4vw;
+    color: #fff;
+    text-align: center;
+}
+
+.menu .menu__list {
+    position: absolute;
+    top: 7.6vw;
+    left: 1.4vw;
+}
+
+.menu .menu__item {
+    width: 76%;
+    display: block;
+    margin-top: .3vw;
+}
+
+/* Charts */
+.charts {
+    position: relative;
+    bottom: 20vw;
+    left: 58vw;
+    width: 20vw;
+    min-height: 22vw;
+    background: url(/assets/img/pc/charts/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.charts .charts__list {
+    top: 6vw;
+    left: 7vw;
+    position: absolute;
+    font-size: 1rem;
+    text-align: center;
+    list-style: none;
+}
+
+.charts .charts__item {
+    line-height: 1vw;
+}
+
+/* More Turn */
+.more-turns {
+
+}
+
+.more-turns__list {
+    margin: -5.6vw 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Get gift */
+.get-gifts {
+    margin: 39vw 0 0 0;
+    text-align: center;
+}
+
+.get-gifts .title {
+    line-height: 2.2vw;
+}
+
+.get-gifts__list {
+    
+}
+
+.get-gifts__item {
+    
+}
+
+.get-gifts__item img {
+    margin: 19.6vw 4vw 1.4vw;
+}
