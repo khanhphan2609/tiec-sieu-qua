@@ -1,7 +1,7 @@
 #wrapper {
     min-height: 135vw;
-    background: url('/assets/img/pc/bg.jpg');
-    background-size: cover;
+    background: url(/assets/img/pc/bg.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -19,8 +19,9 @@
 
 .menu .title {
     position: absolute;
+    font-size: 1rem;
     top: 5.8vw;
-    left: 2.4vw;
+    left: 2.2vw;
     color: #fff;
     text-align: center;
 }
@@ -37,11 +38,15 @@
     margin-top: .3vw;
 }
 
+.menu .menu__item:hover {
+    filter: brightness(1.2);
+}
+
 /* Charts */
 .charts {
     position: relative;
-    bottom: 20vw;
-    left: 58vw;
+    bottom: 42vw;
+    left: 59vw;
     width: 20vw;
     min-height: 22vw;
     background: url(/assets/img/pc/charts/bg.png);
@@ -50,8 +55,8 @@
 }
 
 .charts .charts__list {
-    top: 6vw;
-    left: 7vw;
+    top: 6.3vw;
+    left: 4vw;
     position: absolute;
     font-size: 1rem;
     text-align: center;
@@ -62,36 +67,69 @@
     line-height: 1vw;
 }
 
+.charts .charts__item:nth-child(1) {
+    color: green;
+}
+
+.charts .charts__item:nth-child(2) {
+    color: red;
+}
+
+.charts .charts__item:nth-child(3) {
+    margin-bottom: .5vw;
+    color: violet;
+}
+
 /* More Turn */
 .more-turns {
-
+    margin: 16vw 0 0 0;
 }
 
 .more-turns__list {
-    margin: -5.6vw 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Points */
+.points {
+    display: none;
+}
+
 /* Get gift */
 .get-gifts {
-    margin: 39vw 0 0 0;
+    margin: 17.5vw 0 0 0;
     text-align: center;
 }
 
 .get-gifts .title {
-    line-height: 2.2vw;
+    line-height: 2.4vw;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
+
 .get-gifts__list {
-    
+    display: block;
 }
 
 .get-gifts__item {
-    
+    display: inline-block;
+    width: 8vw;
+    margin: 18.5vw 3.6vw 4.8vh;
+}
+
+.get-gifts__item a {
+    align-items: center;
 }
 
 .get-gifts__item img {
-    margin: 19.6vw 4vw 1.4vw;
+    width: 90%;
+}
+
+.more-turns__item img:hover,
+.get-gifts__item img:hover {
+    scale: 1.1;
+    filter: brightness(1.2);
+    transition: .2s linear;
 }
