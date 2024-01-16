@@ -100,7 +100,6 @@
     }
 
     .get-gifts .title {
-        margin: 0 26vw;
         line-height: 6vw;
         font-size: 0.8rem;
     }
@@ -189,8 +188,7 @@
     }
 
     .get-gifts {
-        margin-top: 109vw;
-        margin-bottom: 2vwx;
+        margin-top: 107vw;
     }
 }
 
