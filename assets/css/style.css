@@ -55,7 +55,7 @@
 }
 
 .charts .charts__list {
-    left: 4.4vw;
+    left: 4.8vw;
     top: 5.6vw;
     position: absolute;
     font-size: 1rem;
@@ -106,6 +106,8 @@
     line-height: 2.4vw;
     font-size: 1.2rem;
     font-weight: 700;
+    background-color: #fff;
+    margin: 0 40vw;
 }
 
 
@@ -116,7 +118,25 @@
 .get-gifts__item {
     display: inline-block;
     width: 8vw;
-    margin: 18.5vw 3.6vw 4.8vh;
+    margin: 0 3.6vw 0;
+}
+
+.get-gifts__item:nth-child(1),
+.get-gifts__item:nth-child(2),
+.get-gifts__item:nth-child(3),
+.get-gifts__item:nth-child(4),
+.get-gifts__item:nth-child(5),
+.get-gifts__item:nth-child(6) {
+    margin: 19.6vw 3.6vw 0;
+}
+
+.get-gifts__item:nth-child(7),
+.get-gifts__item:nth-child(8),
+.get-gifts__item:nth-child(9),
+.get-gifts__item:nth-child(10),
+.get-gifts__item:nth-child(11),
+.get-gifts__item:nth-child(12) {
+    margin: 21.6vw 3.6vw 0;
 }
 
 .get-gifts__item a {

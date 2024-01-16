@@ -83,13 +83,43 @@
     }
 
     .get-gifts .title {
-        line-height: 4vw;
+        margin: 0 26vw;
+        line-height: 6vw;
         font-size: 0.8rem;
     }
 
     .get-gifts__item {
         width: 36vw;
-        margin: 55vw 3.5vw 4.6vw;
+    }
+    
+    .get-gifts__item:nth-child(2),
+    .get-gifts__item:nth-child(3) {
+        margin: 54vw 3.6vw 0;
+    }
+
+    
+    .get-gifts__item:nth-child(4),
+    .get-gifts__item:nth-child(5) {
+        margin: 61vw 3.6vw 0;
+
+    }
+    
+    .get-gifts__item:nth-child(8),
+    .get-gifts__item:nth-child(9) {
+        margin: 60vw 3.6vw 0;
+
+    }
+
+    
+    .get-gifts__item:nth-child(10),
+    .get-gifts__item:nth-child(11) {
+        margin: 59vw 3.6vw 0;
+
+    }
+
+    .get-gifts__item:nth-child(11),
+    .get-gifts__item:nth-child(12) {
+        margin: 58vw 3.6vw 0;
     }
 
     .get-gifts__item img {
@@ -125,12 +155,13 @@
 
     .charts .charts__list {
         top: 36vw;
-        left: 36vw;
+        left: 32vw;
         position: absolute;
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align: center;
         list-style: none;
     }
+    
 
     .charts .charts__item {
         line-height: 6vw;
