@@ -102,11 +102,13 @@
 }
 
 .get-gifts .title {
-    line-height: 2.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 17vw 39vw 0;
+    height: 3.5vw;
     font-size: 1.2rem;
     font-weight: 700;
-    /* background-color: #fff;
-    margin: 0 40vw; */
     background: url(/assets/img/pc/get-title-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -129,7 +131,7 @@
 .get-gifts__item:nth-child(4),
 .get-gifts__item:nth-child(5),
 .get-gifts__item:nth-child(6) {
-    margin: 19.4vw 3.6vw 0;
+    margin: 19.2vw 3.6vw 0;
 }
 
 .get-gifts__item:nth-child(7),
