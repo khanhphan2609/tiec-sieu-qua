@@ -48,6 +48,23 @@
         display: inline-block;
         width: 8vw;
     }
+    .get-gifts__item:nth-child(1),
+    .get-gifts__item:nth-child(2),
+    .get-gifts__item:nth-child(3),
+    .get-gifts__item:nth-child(4),
+    .get-gifts__item:nth-child(5),
+    .get-gifts__item:nth-child(6) {
+        margin: 18.4vw 3.6vw 4.4vh;
+    }
+
+    .get-gifts__item:nth-child(7),
+    .get-gifts__item:nth-child(8),
+    .get-gifts__item:nth-child(9),
+    .get-gifts__item:nth-child(10),
+    .get-gifts__item:nth-child(11),
+    .get-gifts__item:nth-child(12) {
+        margin: 18.4vw 3.6vw 4.4vh;
+    }
     .get-gifts__item img {
         width: 90%;
     }

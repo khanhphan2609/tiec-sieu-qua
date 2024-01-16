@@ -106,8 +106,11 @@
     line-height: 2.4vw;
     font-size: 1.2rem;
     font-weight: 700;
-    background-color: #fff;
-    margin: 0 40vw;
+    /* background-color: #fff;
+    margin: 0 40vw; */
+    background: url(/assets/img/pc/get-title-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -127,7 +130,7 @@
 .get-gifts__item:nth-child(4),
 .get-gifts__item:nth-child(5),
 .get-gifts__item:nth-child(6) {
-    margin: 19.6vw 3.6vw 0;
+    margin: 19.4vw 3.6vw 0;
 }
 
 .get-gifts__item:nth-child(7),
@@ -136,7 +139,7 @@
 .get-gifts__item:nth-child(10),
 .get-gifts__item:nth-child(11),
 .get-gifts__item:nth-child(12) {
-    margin: 21.6vw 3.6vw 0;
+    margin: 21.4vw 3.6vw 0;
 }
 
 .get-gifts__item a {
